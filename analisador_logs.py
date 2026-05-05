@@ -24,6 +24,7 @@ def analisar_logs():
         'FTL stack trace' : 'FTL stack trace',
         'log4j:throwable><![CDATA[com.liferay.document.library.kernel.exception.NoSuchFileEntryException: No FileEntry exists with the key {fileEntryId=46846350}': "NoSuchFileEntryException",
         'InvalidRepositoryIdException': "InvalidRepositoryIdException",
+        '[PaginationLimitFilter] Applying limit: bot UA detected': '[PaginationLimitFilter] Applying limit: bot UA detected',
     }
 
     contagem = {nome: 0 for nome in padroes_busca.values()}
